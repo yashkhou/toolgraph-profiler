@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Validated concurrency and bottleneck analysis.** The profiler now rejects malformed graphs and reports peak/average concurrency, corrected idle gaps, and ranked duration-plus-lock-wait bottlenecks.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
