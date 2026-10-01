@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/toolgraph-profiler).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/toolgraph-profiler"`
+
+
 # toolgraph-profiler
 
 Critical-path and contention analysis for timestamped AI-agent tool-call traces.
